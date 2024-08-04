@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-image: url("../assert/color-depth-of-field-environment-1591447.jpg");
+    background-size: cover;
+    
+
+
+   
+}
+
+.container {
+    border:5px solid black;
+    text-align: center;
+    /* background: white; */
+    padding: 20px;
+    border-radius: 10px;
+    height:300px;
+    width:700px;
+    margin:90px 0px 0px 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    position: fixed;
+}
+
+h1 {
+  
+    margin-bottom: 30px;
+}
+
+.generator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pass {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#generateBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    border:2px solid black;
+    cursor: pointer;
+}
+
+#generateBtn:hover {
+    background-color: #0056b3;
+}
